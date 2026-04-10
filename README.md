@@ -1,4 +1,7 @@
 # api-ethics-assignment
+
+task1_fetch.py
+
 import requests
 import time
 import json
@@ -91,7 +94,7 @@ print(f"Saved to {filename}")
 
 
 
-
+task2_clean.py
 
 import json
 import pandas as pd
@@ -140,7 +143,7 @@ print(f"Saved file: {output_file}")
 
 
 
-
+task3_analysis.py
 
 import pandas as pd
 import numpy as np
@@ -202,7 +205,7 @@ with open("data/analysis_summary.json", "w") as f:
 print("\nAnalysis summary saved to data/analysis_summary.json")
 
 
-
+task4_visualization.py
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -254,3 +257,14 @@ plt.tight_layout()
 plt.show()
 
 print("Visualization Completed Successfully!")
+
+
+
+data/ files (JSON, CSV, PNG)
+
+
+
+
+Initial project upload
+
+
